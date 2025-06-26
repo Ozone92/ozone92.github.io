@@ -17,6 +17,10 @@ function App() {
         <li>
         <a href='https://github.com/Ozone92'>My github</a>
         </li>
+
+        <li>
+          <a href='../Simple Clicker/index.html'>Simple Clicker Game</a>
+        </li>
       </ul>
     </>
   )
