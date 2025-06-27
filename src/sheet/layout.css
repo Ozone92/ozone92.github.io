@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a:visited { 
+ text-decoration: none; 
+ color:floralwhite; 
+}
+
+footer {
+    font-size: 12px;
+}
+
+nav {
+    top: 0%;
+    width: 100%;
+    position: fixed;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    background-color: darkblue;
+}
