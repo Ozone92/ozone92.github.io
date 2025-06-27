@@ -12,7 +12,7 @@ export const Card: FC<CardProps> = ({name, description, link}) => {
         return <h5 key={`${name}-desc-${i}`} className="card-desc">{elem}</h5>
     });
 
-    const lien = link === undefined ? null : <a href={link}>Aller voir</a>;
+    const lien = link === undefined ? null : <a href={link} target="_blank" rel="noreferrer noopener">Aller voir</a>;
 
     return (
         <div className="card-container">

@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    font-size: 1vw;
 }
 
 a:visited { 
@@ -9,11 +10,12 @@ a:visited {
 }
 
 footer {
-    font-size: 12px;
+    font-size: 0.75vw;
 }
 
 nav {
     top: 0%;
+    left: 0%;
     width: 100%;
     position: fixed;
 }
